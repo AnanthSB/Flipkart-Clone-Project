@@ -1,0 +1,112 @@
+.header_{
+    z-index: 50;
+    width:100vw;
+    height: 56px;
+    background-color: #2874f0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top:0px;
+}
+
+.header_bar {
+    z-index:100;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70vw;
+    margin-left: 27px;
+    padding:8px 0px;
+
+}
+
+.header_bar div .Explore_Plus {
+    font-size: 11px;
+    margin-top: -1px;
+    font-style: italic;
+}
+
+.img_Cart_button {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+/* .more_arrowmark{
+    transform: rotate(90deg);
+} */
+.navLoginStyle {
+    font-weight: bold;
+    margin: 0px 15px 0px 15px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+.navMoreStyle{
+    margin: 0px 30px;
+}
+.navfontStyle a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.inputSearchBox{
+    width: 250px;
+    height: 37px;
+    padding: 0px 10px 0px 15px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border: 0px #e0ddd7;
+}
+/* .SearchIconMagnifier img{
+    position: relative;
+    top: 12px;
+    
+} */
+.SearchIconMagnifier{
+    background-color: #fff;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    height: 37px;
+    width: 40px;
+    border-left: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.Flipkart_logo{
+margin-right: 15px;margin-left: 20px;
+}
+.SearchBoxNmagnifier{
+    display: flex;
+    flex-flow: row nowrap;
+    margin-right: 40px;
+    height: 36px;
+}
+.login_anchroTag{
+    text-decoration: none;
+    color: #2874f0;
+    padding: 0px 30px 0px 30px;
+    background-color: #fff;
+    height: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    width: 60px;
+}
+.shopping_cartLogo{
+    height: 1.3em;
+    padding: 5px 5px 0px 30px;
+}
+
+.magnifierPadding{
+    padding:12px;
+}
+
+.SearchBoxNmagnifier{
+    box-shadow: 2px 4px 2px -1px blue;
+}

@@ -1,0 +1,28 @@
+.main_body{
+    width:100%;
+    height: 150vh;
+    background-color: #fff;
+}
+.main1{
+    width: 100vw;
+    height: 19vh;
+    border-bottom: 1px solid black;
+}
+.main2_slider{
+    width: 100vw;
+    height: 49vh;
+    /* border: 1px solid black; */
+    margin: 10px 0px 10px 0px;
+}
+.main3{
+    width: 100vw;
+    height: 49vh;
+    border: 1px solid black;
+    margin: 14px 0px 10px 0px;
+}
+.main4{
+    width: 100vw;
+    height: 49vh;
+    border: 1px solid black;
+    margin: 14px 0px 10px 0px;
+}
